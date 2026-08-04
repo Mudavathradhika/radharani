@@ -1,0 +1,14 @@
+uvicorn
+fastapi
+langserve
+sse_starlette
+langchain-core
+langchain-google-genai
+requests
+pydantic
+
+from google.colab import files
+
+files.download('app.py')
+
+files.download('requirements.txt')
