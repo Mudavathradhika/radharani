@@ -1,14 +1,17 @@
-uvicorn
 fastapi
-langserve
-sse_starlette
-langchain-core
-langchain-google-genai
+
+uvicorn
+
 requests
+
+langchain
+
+langchain-core
+
+langchain-google-genai
+
+langserve
+
 pydantic
 
-from google.colab import files
-
-files.download('app.py')
-
-files.download('requirements.txt')
+sse-starlette
